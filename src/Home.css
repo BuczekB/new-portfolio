@@ -1,0 +1,117 @@
+
+@keyframes animate {
+    0%{
+        background-position: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+}
+
+
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #94a3b8;
+}
+
+.avatar{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   overflow: hidden;
+   background-color: black;
+}
+
+.bg{
+
+}
+.avatarImg{
+    width: 250px;
+    height: 250px;
+    background-image:  url('./assets/avatar.jpg') ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    background: linear-gradient(90deg, #ff0000,#ffff00,#ff00f3, #0033ff,#ff0000);
+    background-size: 400%;
+    font-size: 60px;
+    font-family: sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 30s linear infinite;
+    margin: 10px;
+}
+
+.homeContainer button{
+    width: 150px;
+    height: 50px;
+    border-radius: 50px;
+    margin: 10px 10px;
+    border: none;
+    font-weight: bold;
+}
+.homeContainer button:hover{
+   cursor: pointer;
+}
+
+.homeContainer button:nth-child(1){
+    background-color:#183491;
+}
+.homeContainer button:nth-child(1):hover{
+    background-color:#2945A2;
+}
+.homeContainer button:nth-child(2){
+    background-color:#374151;
+}
+.homeContainer button:nth-child(2):hover{
+    background-color:#485262;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    position: absolute;
+    top: 0;
+    right: 10%;
+}
+.navList{
+    display: flex;
+    margin: 10px 10px;
+}
+.listItem{
+    list-style: none;
+    margin: 0 20px;
+}
+.listItem p{
+    font-size: 22px;
+    font-weight: 500;
+    color: #DDDDDD;
+}
+.listItem p:hover{
+    color: #ffffff;
+    cursor: pointer;
+}
+.logo{
+    font-size: 36px;
+    font-weight: bold;
+    color: #DDDDDD;
+    margin: 0 30px;
+
+    background: linear-gradient(90deg, #ff0000,#ffff00,#ff00f3, #0033ff,#ff0000);
+    background-size: 400%;
+    font-family: sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 20s linear infinite;
+}
