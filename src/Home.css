@@ -28,9 +28,7 @@
    background-color: black;
 }
 
-.bg{
 
-}
 .avatarImg{
     width: 250px;
     height: 250px;
@@ -63,55 +61,16 @@ h1{
    cursor: pointer;
 }
 
-.homeContainer button:nth-child(1){
+.firstButton{
     background-color:#183491;
 }
-.homeContainer button:nth-child(1):hover{
+.firstButton{
     background-color:#2945A2;
 }
-.homeContainer button:nth-child(2){
+.secoundButton{
     background-color:#374151;
 }
-.homeContainer button:nth-child(2):hover{
+.secoundButton{
     background-color:#485262;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 80%;
-    position: absolute;
-    top: 0;
-    right: 10%;
-}
-.navList{
-    display: flex;
-    margin: 10px 10px;
-}
-.listItem{
-    list-style: none;
-    margin: 0 20px;
-}
-.listItem p{
-    font-size: 22px;
-    font-weight: 500;
-    color: #DDDDDD;
-}
-.listItem p:hover{
-    color: #ffffff;
-    cursor: pointer;
-}
-.logo{
-    font-size: 36px;
-    font-weight: bold;
-    color: #DDDDDD;
-    margin: 0 30px;
-
-    background: linear-gradient(90deg, #ff0000,#ffff00,#ff00f3, #0033ff,#ff0000);
-    background-size: 400%;
-    font-family: sans-serif;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: animate 20s linear infinite;
-}

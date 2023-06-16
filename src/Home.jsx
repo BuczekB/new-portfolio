@@ -1,16 +1,13 @@
 import './Home.css'
 
+import Navigation from './Navigation'
+
+import {Link} from 'react-router-dom'
+
 const Home = () =>{
     return(
         <div className="homeContainer">
-            <nav>
-                <div className='logo'>JB</div>
-                <ul className='navList'>
-                    <li className='listItem'><p>Home</p></li>
-                    <li className='listItem'><p>About</p></li>
-                    <li className='listItem'><p>Projects</p></li>
-                </ul>
-            </nav>
+           <Navigation/>
             <div className='avatar'>
                 <div className='avatarImg'></div>
                 <div className='bg'></div>
@@ -18,12 +15,16 @@ const Home = () =>{
             <h1>Jakub Buczyński</h1>
             <h2>Programista junior frontend, szukam pierwszej pracy</h2>
             <div className="boxOfButtons">
-                <button className='a'> 
+                <Link to='/Projects'>
+                <button className='firstButton'> 
                     Aplikacje
                 </button>
-                <button>
+                </Link>
+                <Link to='/Kod'>
+                <button className='secoundButton'> 
                     Kod
                 </button>
+                </Link>
             </div>
         </div>
     )
