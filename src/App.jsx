@@ -5,6 +5,7 @@ import './App.css'
 import Home from './Home'
 import Projects from './Projects'
 import About from './About'
+import Cursor from './cursor'
 
 function App() {
  
@@ -19,6 +20,7 @@ function App() {
               <Route path='/About' element={<About/>} />
        
         </Routes>
+        <Cursor/>
       </div>
     </>
   )
