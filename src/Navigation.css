@@ -29,7 +29,6 @@ nav{
     font-weight: bold;
     color: #DDDDDD;
     margin: 0 30px;
-
     background: linear-gradient(90deg, #ff0000,#ffff00,#ff00f3, #0033ff,#ff0000);
     background-size: 400%;
     font-family: sans-serif;
@@ -37,3 +36,6 @@ nav{
     -webkit-background-clip: text;
     animation: animate 20s linear infinite;
 }
+a {
+    text-decoration: none;
+  }

@@ -1,0 +1,55 @@
+.homeContainer{
+
+}
+h1{
+    margin:50px 0  ;
+}
+.firstText{
+    font-size: 28px;
+    color: white;
+    margin: 0;
+}
+.secoundText{
+    font-size: 16px;
+    color: white;
+    margin: 0;
+}
+.projectContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 40px 60px;
+}
+.projectBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 712px;
+    height: 178px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: ease-in-out .3s all;
+}
+.avatarBox{
+    flex-grow: 1;
+    margin: 0 20px 0 20px;
+    overflow: hidden ;
+}
+.textBox{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex-grow: 3;
+    margin: 0 20px 0 20px;
+}
+.projectBox:hover{
+    box-shadow: 0 5px 8px 0 rgb(133, 118, 199);
+}
+
+.imageAvatar{
+    width: 120px;
+    height: 120px;
+    border-radius: 25%;
+    border: solid 1px white;
+    background-size: cover;
+}

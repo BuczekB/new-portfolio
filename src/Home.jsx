@@ -7,7 +7,7 @@ import {Link} from 'react-router-dom'
 const Home = () =>{
     return(
         <div className="homeContainer">
-           <Navigation/>
+          <Navigation logo='JB' />
             <div className='avatar'>
                 <div className='avatarImg'></div>
                 <div className='bg'></div>
@@ -16,15 +16,15 @@ const Home = () =>{
             <h2>Programista junior frontend, szukam pierwszej pracy</h2>
             <div className="boxOfButtons">
                 <Link to='/Projects'>
-                <button className='firstButton'> 
+                <button  className='firstButton'> 
                     Aplikacje
                 </button>
                 </Link>
-                <Link to='/Kod'>
-                <button className='secoundButton'> 
-                    Kod
+                <a target='blank' href='https://github.com/BuczekB'>
+                <button  className='secoundButton'> 
+                Kod
                 </button>
-                </Link>
+                </a>
             </div>
         </div>
     )

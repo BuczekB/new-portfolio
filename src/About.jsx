@@ -5,7 +5,7 @@ import Navigation from './Navigation'
 const About = () =>{
     return(
         <div className="homeContainer">
-            <Navigation/>
+            <Navigation logo='Jakub Buczynski'/>
             <h1>
             About
             </h1>

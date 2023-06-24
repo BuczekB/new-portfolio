@@ -1,18 +1,20 @@
 import './Navigation.css'
 
-import {Link, useSearchParams} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 
-const Navigation = () =>{
-
-const searchParams = useSearchParams()
+const Navigation = (props) =>{
 
 
-console.log(searchParams);
+
+
 
     return(
         <div className="navContainer">
             <nav>
-                <div className='logo'>JB</div>
+                <div className='logo'>
+                    <a href='/'>
+                {props.logo}
+                    </a></div>
                 <ul className='navList'>
                    <Link to='/'> <li className='listItem'><p>Home</p></li></Link>
                    <Link to='/About'> <li className='listItem'><p>About</p></li></Link>
