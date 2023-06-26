@@ -2,7 +2,8 @@ import './Home.css'
 
 import Navigation from './Navigation'
 
-import {Link} from 'react-router-dom'
+
+import {Link } from 'react-router-dom'
 
 const Home = () =>{
     return(

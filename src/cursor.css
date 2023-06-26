@@ -1,9 +1,5 @@
 
   
-  .home{
-    z-index: -10;
-  }
- 
   .cursor {
     position: fixed;
     top: 0;
@@ -16,6 +12,7 @@
     z-index: 9999;
     cursor: none;
     opacity: 0.05;
+    z-index: -10;
   }
   
   .glow-cursor {
@@ -30,6 +27,7 @@
     z-index: 9999;
     animation: cursor-glow 5s ease-in-out infinite;
     box-shadow: 5px 5px 50px rgba(24, 33, 71, 0.9);
+    z-index: -10;
     
     
   }
@@ -47,7 +45,7 @@
     z-index: 9999;
     animation: cursor-glow 5s ease-in-out infinite;
     box-shadow: 10px 10px 100px rgba(29, 40, 90, 0.9);;
-   
+    z-index: -10;
     
   }
   .glow-cursor3 {
@@ -62,7 +60,7 @@
     z-index: 9999;
     animation: cursor-glow 5s ease-in-out infinite;
     box-shadow: 15px 15px 150px rgba(46, 62, 133, 0.9);
- 
+    z-index: -10;
     
   }
   

@@ -1,0 +1,22 @@
+
+.aboutContainer{
+    display: flex;
+    min-height: 80vh;
+    max-width: 60vw;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutHeadingH1{
+    background: linear-gradient(90deg, #ebe9e9,#ebe9e9,#ebe9e9);
+    background-size: 400%;
+    font-size: 56px;
+    font-family: sans-serif;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 30s linear infinite;
+    margin-top: 10vh;
+    padding: 0;
+}
+.textAboutMe{
+    font-size: 30px;
+}
