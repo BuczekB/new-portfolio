@@ -25,7 +25,7 @@
 .imageOfProject{
     width: 160px;
     height: 160px;
-    margin-top: 10vh;
+    margin-top: 20vh;
     border-radius: 25%;
     border: 1px solid rgba(255, 255, 255, 0.3);
     background-size: cover;
@@ -45,4 +45,30 @@
     font-size: 26px;
     margin: 0;
     padding: 0;
+}
+.listBox ul{
+    list-style: none;
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.listBox ul li{
+   margin: 0 50px;
+   font-size: 20px;
+   color: rgb(67, 67, 255);
+   font-weight: bold;
+}
+.listBox ul li:hover{
+   cursor: pointer;
+ }
+.imagesBox{
+    margin-top: 220px;
+    display: flex;
+    flex-direction: column;
+}
+.singleImageApp{
+    max-width: 800px;
+    margin: 26px 0;
+    border-radius: 10px;
 }
