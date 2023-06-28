@@ -7,10 +7,15 @@
         background-position: 400%;
     }
 }
+*{
+    margin: 0;
+    padding: 0;
+}
 
 
 .homeContainer{
     display: flex;
+    min-height: 96vh;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -72,5 +77,20 @@ h1{
 }
 .secoundButton{
     background-color:#485262;
+}
+
+footer{
+    position: absolute;
+    bottom: -1;
+    left: 0;
+    right: 0;
+    display: flex;
+    min-height: 10vh;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+.iconsBox span{
+    margin: 0 14px;
 }
 

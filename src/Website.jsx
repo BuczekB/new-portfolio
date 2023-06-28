@@ -25,13 +25,13 @@ const Website = () =>{
             </div>
             <img className='imageOfProject' src={logoWebsite}></img>
             <div>
-            <h1 className='projectHeadingH1' >CryptoApp</h1>
-            <h2 className='projectHeadingH2' >Infrmation about every crypto coins</h2>
+            <h1 className='projectHeadingH1' >Website</h1>
+            <h2 className='projectHeadingH2' >Landing page of small company</h2>
             <div className='listBox'>
                 <ul>
                     <li>Tips</li>
                     <li>FAQ</li>
-                    <li>Support</li>
+                    <li>Go to</li>
                 </ul>
             </div>
             <div className='imagesBox'>

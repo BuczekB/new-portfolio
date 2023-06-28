@@ -6,7 +6,10 @@ nav{
     position: absolute;
     top: 0;
     right: 10%;
+    margin-top: 14px;
 }
+
+
 .navList{
     display: flex;
     margin: 10px 10px;

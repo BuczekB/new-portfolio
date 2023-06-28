@@ -1,13 +1,15 @@
 import './Home.css'
 
 import Navigation from './Navigation'
+import Footer from './footer'
 
 
 import {Link } from 'react-router-dom'
 
 const Home = () =>{
     return(
-        <div className="homeContainer">
+        <div>
+           <div className="homeContainer">
           <Navigation logo='JB' />
             <div className='avatar'>
                 <div className='avatarImg'></div>
@@ -27,7 +29,10 @@ const Home = () =>{
                 </button>
                 </a>
             </div>
-        </div>
+          </div>
+         <Footer/>
+       </div>
+         
     )
 }
 

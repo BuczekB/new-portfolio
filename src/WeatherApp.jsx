@@ -24,13 +24,13 @@ const WeatherApp = () =>{
             </div>
             <img className='imageOfProject' src={logoWeatherApp}></img>
             <div>
-            <h1 className='projectHeadingH1' >CryptoApp</h1>
-            <h2 className='projectHeadingH2' >Infrmation about every crypto coins</h2>
+            <h1 className='projectHeadingH1' >WeatherApp</h1>
+            <h2 className='projectHeadingH2' >Simple application to check weather wherver you want</h2>
             <div className='listBox'>
                 <ul>
                     <li>Tips</li>
                     <li>FAQ</li>
-                    <li>Support</li>
+                    <li>Go to</li>
                 </ul>
             </div>
             <div className='imagesBox'>

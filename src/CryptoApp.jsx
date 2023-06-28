@@ -28,9 +28,9 @@ const CryptoApp = () =>{
             <h2 className='projectHeadingH2' >Infrmation about every crypto coins</h2>
             <div className='listBox'>
                 <ul>
-                    <li>Tips</li>
+                    <li>About</li>
                     <li>FAQ</li>
-                    <li>Support</li>
+                    <li>Go to</li>
                 </ul>
             </div>
             <div className='imagesBox'>

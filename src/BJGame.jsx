@@ -24,13 +24,13 @@ const BJGame = () =>{
             </div>
             <img className='imageOfProject' src={logoBJGame}></img>
             <div>
-            <h1 className='projectHeadingH1' >CryptoApp</h1>
-            <h2 className='projectHeadingH2' >Infrmation about every crypto coins</h2>
+            <h1 className='projectHeadingH1' >BlackJack</h1>
+            <h2 className='projectHeadingH2' >Casino card game</h2>
             <div className='listBox'>
                 <ul>
                     <li>Tips</li>
                     <li>FAQ</li>
-                    <li>Support</li>
+                    <li>Go to</li>
                 </ul>
             </div>
             <div className='imagesBox'>

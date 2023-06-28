@@ -14,9 +14,34 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: animate 30s linear infinite;
-    margin-top: 10vh;
+    margin-top: 20vh;
     padding: 0;
 }
 .textAboutMe{
     font-size: 30px;
+}
+.techStackBox{
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20vh;
+    margin-bottom: 20vh;
+    align-items: center;
+}
+.techStackBox h2{
+    font-size: 28px;
+}
+.techListBox{
+ display: flex;
+ justify-content: space-between;
+ min-width: 30vw;
+}
+.techListBox ul{
+    list-style: none;
+    margin-top: 4vh;
+}
+.techListBox ul li{
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: bold;
 }
