@@ -29,9 +29,9 @@ const Website = () =>{
             <h2 className='projectHeadingH2' >Landing page of small company</h2>
             <div className='listBox'>
                 <ul>
-                    <li>Tips</li>
-                    <li>FAQ</li>
-                    <li>Go to</li>
+                <li><a href='#about'>About</a></li>
+                    <li><a href='https://buczekb.github.io/website-FRYZ/' target='blank' >Go to</a></li>
+                    <li className='soon'>FAQ</li>
                 </ul>
             </div>
             <div className='imagesBox'>
@@ -39,6 +39,13 @@ const Website = () =>{
                 <img className='singleImageApp' src={imageWebsiteSecound}></img>
                 <img className='singleImageApp' src={imageWebsiteThird}></img>
             </div>
+            </div>
+            <div className='aboutProject' id='about'>
+                <h2>About</h2>
+                <p>
+                You can use the Shortcuts app to make time presets. For example, you can make a shortcut that sets the day range to 13:00 - 18:00 and run it on the days were you want that range. 
+                And another shortcut to reset it back to the normal day range. Example shortcut.
+                </p>
             </div>
         </div>
     )

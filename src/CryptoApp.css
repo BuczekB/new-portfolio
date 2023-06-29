@@ -72,3 +72,63 @@
     margin: 26px 0;
     border-radius: 10px;
 }
+.aboutProject{
+    min-height: 60vh;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.aboutProject p{
+    font-size: 28px;
+}
+.aboutProject h2{
+    font-size: 48px;
+    margin: 18px 0;
+}
+.soon{
+    color: #a1a1a1!important;
+}
+.soon:hover{
+   cursor: default!important;
+}
+a:active, :visited {
+    color: rgb(67, 67, 255);
+}
+
+
+@media (max-width: 960px) {
+    .singleImageApp{
+        max-width: 600px;
+    }
+    .aboutProject p{
+        font-size: 24px;
+    }
+    .aboutProject h2{
+        font-size: 40px;
+    }
+  }
+
+  @media (max-width: 680px) {
+    .projectHeadingH1{
+        font-size: 48px;
+        margin-top: 16px;
+    }
+    .projectHeadingH2{
+        font-size: 20px;
+    }
+    .singleImageApp{
+        max-width: 320px;
+    }
+    .listBox ul li{
+        margin: 0 26px;
+        font-size: 20px;
+     }
+    .aboutProject p{
+        font-size: 20px;
+    }
+    .aboutProject h2{
+        font-size: 36px;
+    }
+  }
