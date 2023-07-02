@@ -8,7 +8,9 @@ nav{
     right: 10%;
     margin-top: 14px;
 }
-
+.menuOnMobile{
+    display: none;
+}
 
 .navList{
     display: flex;
@@ -42,6 +44,51 @@ nav{
 a {
     text-decoration: none;
   }
+  .menuIcon{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    fill: white;
+  }
+  .closeIcon{
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    fill: white;
+  }
+
+  .fullViewMenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 97vw;
+    height: 150vh;
+    background-color: #020617;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .navListFullScreen{
+    list-style: none;
+    margin-top: 25vh;
+  }
+  .listItemFullScreen{
+    color: #DDDDDD;
+    font-weight: bold;
+    font-size: 46px;
+    margin: 40px 0;
+  }
+.isVisable{
+    display: inherit;
+    
+}
+.unvisable{
+    display: none;
+}
+
+ 
 
 
   @media all and (max-width: 660px) {
@@ -52,5 +99,29 @@ a {
         top: 0;
         right: 0;
         left: 0;
+    }
+    .navContainer{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 97vw;
+        background-color: red;
+        height: 160vh;
+        z-index: 10;
+    }
+    .navList{
+       flex-direction: column;
+    }
+    .listItem{
+
+    }
+    .menuOnMobile{
+        display: inherit;
+    }
+    .menuOnMobile{
+       
+    }
+    nav{
+        width: 95%; 
     }
   }
