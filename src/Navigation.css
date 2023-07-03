@@ -20,12 +20,12 @@ nav{
     list-style: none;
     margin: 0 20px;
 }
-.listItem p{
+.navItem{
     font-size: 22px;
     font-weight: 500;
     color: #DDDDDD;
 }
-.listItem p:hover{
+.navItem:hover{
     color: #ffffff;
     cursor: pointer;
 }
@@ -92,9 +92,10 @@ a {
 
 
   @media all and (max-width: 660px) {
-    .listItem p{
-        font-size: 16px;
+    .logo{
+        display: none;
     }
+    
     nav{
         top: 0;
         right: 0;
@@ -105,16 +106,28 @@ a {
         top: 0;
         left: 0;
         width: 97vw;
-        background-color: red;
         height: 160vh;
         z-index: 10;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #020617;
     }
     .navList{
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       width: 100vw;
+       height: 80vh;
     }
     .listItem{
-
+        padding: 50px 0;
+        
     }
+    .navItem{
+        font-size: 50px;
+    }
+    
     .menuOnMobile{
         display: inherit;
     }
