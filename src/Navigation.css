@@ -61,7 +61,7 @@ a {
     position: absolute;
     top: 0;
     left: 0;
-    width: 97vw;
+    width: 96vw;
     height: 150vh;
     background-color: #020617;
     overflow: hidden;
@@ -102,10 +102,10 @@ a {
         left: 0;
     }
     .navContainer{
-        position: absolute;
+        position: fixed;
         top: 0;
         left: 0;
-        width: 97vw;
+        width: 95vw;
         height: 160vh;
         z-index: 10;
         display: flex;
