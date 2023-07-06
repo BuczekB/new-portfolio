@@ -49,6 +49,7 @@ a {
     top: 2%;
     right: 5%;
     fill: white;
+    z-index: 10;
   }
   .closeIcon{
     position: absolute;
@@ -88,8 +89,45 @@ a {
     display: none;
 }
 
- 
-
+.navBoxMobile{
+    display: none;
+}
+.navBoxMobileHiden{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(36, 36, 36);
+}
+.listBoxMobileHiden{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    transform: translateX(-100vw);
+}
+.listBoxMobile{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+.singleItem{
+    margin: 80px 0;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    transition: ease-in-out 0.2s all;
+ }
+ .singleItem:hover{
+    text-shadow: 2px 2px 2px rgb(80, 80, 80);
+ }
 
   @media all and (max-width: 660px) {
     .logo{
@@ -102,16 +140,7 @@ a {
         left: 0;
     }
     .navContainer{
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 95vw;
-        height: 160vh;
-        z-index: 10;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: #020617;
+        display: none;
     }
     .navList{
        flex-direction: column;
@@ -136,5 +165,15 @@ a {
     }
     nav{
         width: 95%; 
+    }
+    .navBoxMobile{
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-width: 100vw;
+        min-height: 100vh;
     }
   }
