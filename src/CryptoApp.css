@@ -1,5 +1,5 @@
 .buttonBox{
-    position: absolute;
+    position: fixed;
     top: 5%;
     left: 5%;
 }
@@ -75,7 +75,7 @@
     border-radius: 10px;
 }
 .aboutProject{
-    min-height: 60vh;
+    min-height: 80vh;
     max-width: 60vw;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@
    cursor: default!important;
 }
 a:active, :visited {
-    color: rgb(67, 67, 255);
+    color: rgb(252, 252, 252);
 }
 
 

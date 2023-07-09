@@ -42,8 +42,7 @@ const BJGame = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                You can use the Shortcuts app to make time presets. For example, you can make a shortcut that sets the day range to 13:00 - 18:00 and run it on the days were you want that range. 
-                And another shortcut to reset it back to the normal day range. Example shortcut.
+                I have created a game application called BlackJack. It is a simple card game where the objective is to reach a total of 21 without exceeding it. You play against a dealer. To develop this app, I used React and a Card API.
                 </p>
             </div>
         </div>

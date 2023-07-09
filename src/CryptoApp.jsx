@@ -42,8 +42,7 @@ const CryptoApp = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                You can use the Shortcuts app to make time presets. For example, you can make a shortcut that sets the day range to 13:00 - 18:00 and run it on the days were you want that range. 
-                And another shortcut to reset it back to the normal day range. Example shortcut.
+                I have created an application that allows you to check information about every cryptocurrency. It was developed using React, TypeScript, Redux, and Material UI.
                 </p>
             </div>
         </div>

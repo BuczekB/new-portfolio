@@ -43,8 +43,7 @@ const Website = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                You can use the Shortcuts app to make time presets. For example, you can make a shortcut that sets the day range to 13:00 - 18:00 and run it on the days were you want that range. 
-                And another shortcut to reset it back to the normal day range. Example shortcut.
+                I have created a landing page for a small company in Lublin. It is a simple website that provides necessary information about the company. The development of this page was done using JavaScript and CSS.
                 </p>
             </div>
         </div>

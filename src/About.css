@@ -19,8 +19,10 @@
 }
 .textAboutMe{
     font-size: 30px;
+    margin: 10px 0;
 }
-.techStackBox{
+.techStackBox,
+.contactStackBox{
     
     display: flex;
     flex-direction: column;
@@ -28,7 +30,8 @@
     margin-bottom: 20vh;
     align-items: center;
 }
-.techStackBox h2{
+.techStackBox h2,
+.contactStackBox h2{
     font-size: 28px;
 }
 .techListBox{
@@ -36,12 +39,19 @@
  justify-content: space-between;
  min-width: 30vw;
 }
-.techListBox ul{
+.techListBox ul,
+.contactListBox ul{
     list-style: none;
     margin-top: 4vh;
 }
-.techListBox ul li{
+.techListBox ul li,
+.contactListBox ul li{
   margin: 10px 0;
   font-size: 20px;
   font-weight: bold;
+}
+.contactListBox{
+ display: flex;
+ justify-content: center;
+ min-width: 30vw;
 }

@@ -1,0 +1,12 @@
+
+.iconsBox{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerIcon{
+    position: absolute;
+    fill: white;
+    z-index: 10;
+  }

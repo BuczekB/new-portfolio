@@ -12,11 +12,24 @@ const About = () =>{
             About Jakub Buczynski
             </h1>
             <p  className='textAboutMe'>
-            I’m a full-time open-source developer. In 2014, I quit my office job to backpack around Southeast Asia while doing open-source. I have since settled in Bangkok, Thailand, but I’m still doing open-source all day. In early 2018, I became fully funded by the community.
+            Hi, my name is Jakub and I m searching for my first job as a programmer. My coding journey began a few years ago when I started learning languages like C++ and Python. However, most of my time has been devoted to frontend languages like JavaScript.
             </p>
             <p className='textAboutMe'>
-            My current focus is on macOS app development with Swift and Node.js-based packages and CLI tools. I actively maintain 1000+ npm packages and many popular projects. 
+            Now, I want to start working as a programmer because it provides me with the opportunity to learn much faster than I can on my own.
             </p>
+            <p className='textAboutMe'>
+            On my portfolio, you can find a few of my projects in the Applications or Projects section. I am continuously working on new ones.
+            </p>
+            <div className='contactStackBox'>
+                <h2>Contact</h2>
+                <div className='contactListBox'>
+                <ul>
+                    <li>E-MAIL: BUCZYNSKIJAKUB10@GMAIL.COM</li>
+                    <li>PHONE NUMBER: +48 735 157 016</li>
+                    <li>GITHUB: HTTPS://GITHUB.COM/BUCZEKB</li>
+                </ul>
+                </div>
+            </div>
             <div className='techStackBox'>
                 <h2>Tech Stack</h2>
                 <div className='techListBox'>

@@ -41,10 +41,12 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-}
+    transform: scale(1.2);
+    filter: brightness(85%);
+} 
 
 h1{
-    background: linear-gradient(90deg, #ff0000,#ffff00,#ff00f3, #0033ff,#ff0000);
+    background: linear-gradient(90deg, #7d66ff,#5c6dff,#7811ff, #5c6dff,#7d66ff);
     background-size: 400%;
     font-size: 60px;
     font-family: sans-serif;
