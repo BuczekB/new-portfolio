@@ -42,7 +42,7 @@ const Navigation = (props) =>{
                             </a></div>
                     
                         <ul className='navList'>
-                        <li className='listItem'><Link to='/'><p className='navItem'>Home</p></Link></li>
+                        <li className='listItem'><Link to='/new-portfolio'><p className='navItem'>Home</p></Link></li>
                         <Link to='/About'> <li className='listItem'><p className='navItem'>About</p></li></Link>
                         <li className='listItem'><Link to='/Projects'><p className='navItem'>Projects</p></Link></li>
                         </ul>
@@ -56,7 +56,7 @@ const Navigation = (props) =>{
 
                         <div className={isMobile ? 'navBoxMobile' : 'navBoxMobileHiden'}>
                             <ul className={isMobile ? 'listBoxMobileHiden' : 'listBoxMobile'}>
-                                <Link onClick={closeMenu} to='/'><li className='singleItem'>Home</li></Link>
+                                <Link onClick={closeMenu} to='/new-portfolio'><li className='singleItem'>Home</li></Link>
                                 <Link onClick={closeMenu} to='/About'><li className='singleItem'>About</li></Link>
                                 <Link onClick={closeMenu} to='/Projects'><li className='singleItem'>Projects</li></Link>
                             </ul>
