@@ -41,8 +41,6 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    transform: scale(1.2);
-    filter: brightness(85%);
 } 
 
 h1{
@@ -53,7 +51,10 @@ h1{
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: animate 30s linear infinite;
-    margin: 10px;
+    
+}
+.h2MainPage{
+    margin-bottom: 25px;
 }
 
 .homeContainer button{

@@ -42,7 +42,7 @@ const BJGame = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                I have created a game application called BlackJack. It is a simple card game where the objective is to reach a total of 21 without exceeding it. You play against a dealer. To develop this app, I used React and a Card API.
+                I have created a game application called BlackJack. It is a simple card game where the objective is to reach a total of 21 without exceeding it. You play against a dealer. To develop this app, I used <strong>React and a Card API</strong>.
                 </p>
             </div>
         </div>

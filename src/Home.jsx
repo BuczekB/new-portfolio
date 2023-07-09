@@ -16,7 +16,7 @@ const Home = () =>{
                 <div className='bg'></div>
             </div>
             <h1>Jakub Buczyński</h1>
-            <h2>Programista junior frontend, szukam pierwszej pracy</h2>
+            <h2 className='h2MainPage'>Junior frontend developer, lets start working </h2>
             <div className="boxOfButtons">
                 <Link to='/Projects'>
                 <button  className='firstButton'> 

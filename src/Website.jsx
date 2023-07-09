@@ -43,7 +43,7 @@ const Website = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                I have created a landing page for a small company in Lublin. It is a simple website that provides necessary information about the company. The development of this page was done using JavaScript and CSS.
+                I have created a landing page for a small company in Lublin. It is a simple website that provides necessary information about the company. The development of this page was done using <strong>JavaScript and CSS.</strong>
                 </p>
             </div>
         </div>

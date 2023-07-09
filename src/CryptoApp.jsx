@@ -42,7 +42,7 @@ const CryptoApp = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                I have created an application that allows you to check information about every cryptocurrency. It was developed using React, TypeScript, Redux, and Material UI.
+                I have created an application that allows you to check information about every cryptocurrency. It was developed using <strong>React, TypeScript, Redux, and Material UI</strong>.
                 </p>
             </div>
         </div>
