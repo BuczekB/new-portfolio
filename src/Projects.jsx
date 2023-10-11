@@ -8,15 +8,17 @@ import logoBTC from './assets/avatarBTC.jpg'
 import logoWeather from './assets/avatarWeather.jpg'
 import logoWebiste from './assets/avatarWebsite.jpg'
 import logoBJ from './assets/avatarBJ.jpg'
+import logoFakeShop from './assets/avatarFakeShop.jpg'
 
 import {Link} from 'react-router-dom'
 
 
 const namesOfProjects = [ 
-    {name: 'CryptoApp', text:'aaefref asdasda grwegr dcsvsdfasdf aWEA FD', avatar: logoBTC}, 
-    {name:'WeatherApp', text:'aaefref asdasda grwegr dcsvsdfasdf aWEA FD', avatar: logoWeather}, 
-    {name:'BJGame', text:'aaefref asdasda grwegr dcsvsdfasdf aWEA FD', avatar: logoBJ}, 
-    {name:'Website', text:'aaefref asdasda grwegr dcsvsdfasdf aWEA FD', avatar: logoWebiste}] 
+    {name:'FakeShop', text:'Project simulate ecommers website', avatar: logoFakeShop},
+    {name: 'CryptoApp', text:'Everything about crypto', avatar: logoBTC}, 
+    {name:'WeatherApp', text:'Information about weather', avatar: logoWeather}, 
+    {name:'BJGame', text: 'Just game BlackJack', avatar: logoBJ}, 
+    {name:'Website', text:'Simple website for small company', avatar: logoWebiste}] 
 
 const listOfProjects = namesOfProjects.map((item) =>{
     return(

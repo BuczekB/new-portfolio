@@ -1,151 +1,141 @@
+.homeContainer h1 {
+  max-width: 80vw;
+  margin: 40px 0;
+}
+.firstText {
+  font-size: 28px;
+  color: white;
+  margin: 0;
+}
+.secoundText {
+  font-size: 16px;
+  color: white;
+  margin: 0;
+}
+.projectContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 40px 60px;
+}
+.projectBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 712px;
+  height: 178px;
+  max-width: 38vw;
+  max-height: 18vh;
+  border-radius: 20px;
+  border: 1px solid white;
+  transition: ease-in-out 0.3s all;
+}
+.avatarBox {
+  flex-grow: 1;
+  margin: 0 20px 0 20px;
+  overflow: hidden;
+}
+.textBox {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-grow: 3;
+  margin: 0 20px 0 20px;
+}
+.projectBox:hover {
+  box-shadow: 0 5px 8px 0 rgb(133, 118, 199);
+}
 
-.homeContainer h1{
-    max-width: 80vw;
-    margin: 40px 0  ;
+.imageAvatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 25%;
+  border: solid 1px rgba(255, 255, 255, 0.5);
+  background-size: cover;
 }
-.firstText{
-    font-size: 28px;
-    color: white;
-    margin: 0;
-}
-.secoundText{
-    font-size: 16px;
-    color: white;
-    margin: 0;
-}
-.projectContainer{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 40px 60px;
-}
-.projectBox{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 712px;
-    height: 178px;
-    max-width: 38vw;
+
+@media all and (max-width: 1660px) {
+  .projectBox {
+    max-width: 40vw;
     max-height: 18vh;
-    border-radius: 20px;
-    border: 1px solid white;
-    transition: ease-in-out .3s all;
-}
-.avatarBox{
-    flex-grow: 1;
-    margin: 0 20px 0 20px;
-    overflow: hidden ;
-}
-.textBox{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    flex-grow: 3;
-    margin: 0 20px 0 20px;
-}
-.projectBox:hover{
-    box-shadow: 0 5px 8px 0 rgb(133, 118, 199);
+  }
+  .imageAvatar {
+    width: 90px;
+    height: 90px;
+  }
+  .firstText {
+    font-size: 24px;
+  }
+  .secoundText {
+    font-size: 14px;
+  }
 }
 
-.imageAvatar{
-    width: 110px;
-    height: 110px;
+@media all and (max-width: 1260px) {
+  .projectContainer {
+    min-width: 80vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+  }
+  .projectBox {
+    min-width: 60vw;
+    max-height: 18vh;
+  }
+  .imageAvatar {
+    width: 90px;
+    height: 90px;
     border-radius: 25%;
     border: solid 1px rgba(255, 255, 255, 0.5);
     background-size: cover;
+  }
 }
 
-
-
-
-
-  @media all and (max-width: 1660px) {
-    .projectBox{
-        max-width: 40vw;
-        max-height: 18vh;
-    }
-    .imageAvatar{
-        width: 90px;
-        height: 90px;
-    }
-    .firstText{
-        font-size: 24px;
-    }
-    .secoundText{
-        font-size:14px;
-    }
+@media all and (max-width: 960px) {
+  .projectContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
-
-  @media all  and (max-width: 1260px) {
-    .projectContainer{
-        min-width: 80vw;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr ;
-        justify-items: center;
-    }
-    .projectBox{
-        min-width: 60vw;
-        max-height: 18vh;
-    }
-    .imageAvatar{
-        width: 90px;
-        height: 90px;
-        border-radius: 25%;
-        border: solid 1px rgba(255, 255, 255, 0.5);
-        background-size: cover;
-    }
-   
+  .projectBox {
+    max-width: 70vw;
+    max-height: 18vh;
   }
-
-  @media all and (max-width: 960px) {
-    .projectContainer{
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr ;
-    }
-    .projectBox{
-        max-width: 70vw;
-        max-height: 18vh;
-    }
-    .imageAvatar{
-        width: 80px;
-        height: 80px;
-        border-radius: 25%;
-        border: solid 1px rgba(255, 255, 255, 0.5);
-        background-size: cover;
-    }
-    .firstText{
-        font-size: 20px;
-    }
-    .secoundText{
-        font-size: 12px;
-    }
+  .imageAvatar {
+    width: 80px;
+    height: 80px;
+    border-radius: 25%;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    background-size: cover;
   }
-
-  @media all and (max-width: 660px) {
-    .projectContainer{
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr ;
-    }
-    .projectBox{
-        max-width: 80vw;
-        max-height: 18vh;
-    }
-    .imageAvatar{
-        width: 70px;
-        height: 70px;
-        border-radius: 25%;
-        border: solid 1px rgba(255, 255, 255, 0.5);
-        background-size: cover;
-    }
-    .firstText{
-        font-size: 18px;
-    }
-    .secoundText{
-        font-size: 8px;
-        max-width: 50vh;
-    }
+  .firstText {
+    font-size: 20px;
   }
+  .secoundText {
+    font-size: 12px;
+  }
+}
 
- 
-  
-
+@media all and (max-width: 660px) {
+  .projectContainer {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
+  .projectBox {
+    max-width: 80vw;
+    max-height: 18vh;
+  }
+  .imageAvatar {
+    width: 70px;
+    height: 70px;
+    border-radius: 25%;
+    border: solid 1px rgba(255, 255, 255, 0.5);
+    background-size: cover;
+  }
+  .firstText {
+    font-size: 18px;
+  }
+  .secoundText {
+    font-size: 8px;
+    max-width: 50vh;
+  }
+}

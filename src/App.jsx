@@ -12,6 +12,7 @@ import WeatherApp from './WeatherApp'
 import BJGame from './BJGame'
 import Website from './Website'
 import CryptoApp from './CryptoApp'
+import FakeShop from './FakeShop'
 
 function App() {
  
@@ -27,6 +28,7 @@ function App() {
               <Route path='/Projects/BJGame' element={<BJGame/>} />
               <Route path='/Projects/Website' element={<Website/>} />
               <Route path='/Projects/CryptoApp' element={<CryptoApp/>} />
+              <Route path='/Projects/FakeShop' element={<FakeShop/>} />
         </Routes>
         <Cursor/>
       </div>
