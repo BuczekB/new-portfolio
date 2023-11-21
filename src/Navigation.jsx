@@ -37,10 +37,10 @@ const Navigation = (props) =>{
                     <div className="navContainer">
                     <nav>
                         <div className='logo'>
-                            <a href='/'>
+                        <Link to='/new-portfolio'>
                         {props.logo}
-                            </a></div>
-                    
+                        </Link>
+                        </div>
                         <ul className='navList'>
                         <li className='listItem'><Link to='/new-portfolio'><p className='navItem'>Home</p></Link></li>
                         <Link to='/About'> <li className='listItem'><p className='navItem'>About</p></li></Link>
