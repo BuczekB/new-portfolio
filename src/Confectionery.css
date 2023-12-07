@@ -1,0 +1,25 @@
+
+
+.imagesBoxConfectionery{
+    margin-top: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.singleImageAppConfectionery{
+    max-width: 800px;
+    margin: 0 30px;
+    border-radius: 10px;
+}
+
+
+.singleImageAppConfectionery:nth-child(1n){
+    margin-top: 100px;    
+}
+
+
+.newWeb{
+    margin-bottom: 200px;
+}
+

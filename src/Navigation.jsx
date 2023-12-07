@@ -45,6 +45,7 @@ const Navigation = (props) =>{
                         <li className='listItem'><Link to='/new-portfolio'><p className='navItem'>Home</p></Link></li>
                         <Link to='/About'> <li className='listItem'><p className='navItem'>About</p></li></Link>
                         <li className='listItem'><Link to='/Projects'><p className='navItem'>Projects</p></Link></li>
+                        <li className='listItem'><Link to='/Figma'><p className='navItem'>Figma</p></Link></li>
                         </ul>
                     </nav>
                     </div>    
@@ -59,6 +60,7 @@ const Navigation = (props) =>{
                                 <Link onClick={closeMenu} to='/new-portfolio'><li className='singleItem'>Home</li></Link>
                                 <Link onClick={closeMenu} to='/About'><li className='singleItem'>About</li></Link>
                                 <Link onClick={closeMenu} to='/Projects'><li className='singleItem'>Projects</li></Link>
+                                <Link onClick={closeMenu} to='/Figma'><li className='singleItem'>Figma</li></Link>
                             </ul>
                         </div>
                                             

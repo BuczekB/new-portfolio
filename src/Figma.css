@@ -1,0 +1,11 @@
+.homeContainerFigma{
+    height: 70vh;
+}
+
+.homeContainerFigma h1{
+    margin-bottom: 150px;
+}
+
+.projectContainerFigma {
+  display: flex;
+}

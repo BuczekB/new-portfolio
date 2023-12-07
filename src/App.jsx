@@ -13,6 +13,8 @@ import BJGame from './BJGame'
 import Website from './Website'
 import CryptoApp from './CryptoApp'
 import FakeShop from './FakeShop'
+import Figma from './Figma'
+import Confectionery from './Confectionery'
 
 function App() {
  
@@ -24,11 +26,13 @@ function App() {
               <Route path='/new-portfolio' element={<Home/>}/>
               <Route path='/Projects' element={<Projects/>} />
               <Route path='/About' element={<About/>} />
+              <Route path='/Figma' element={<Figma/>} />
               <Route path='/Projects/WeatherApp' element={<WeatherApp/>} />
               <Route path='/Projects/BJGame' element={<BJGame/>} />
               <Route path='/Projects/Website' element={<Website/>} />
               <Route path='/Projects/CryptoApp' element={<CryptoApp/>} />
               <Route path='/Projects/FakeShop' element={<FakeShop/>} />
+              <Route path='/Figma/Confectionery' element={<Confectionery/>} />
         </Routes>
         <Cursor/>
       </div>

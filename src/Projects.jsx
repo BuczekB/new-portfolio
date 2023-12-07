@@ -33,7 +33,7 @@ const Projects = () =>{
     return(
         <div className="homeContainer">
              <Navigation logo='JB' />
-             <h1>  Programming Project</h1>
+             <h1>  Programming Projects</h1>
             <div className='projectContainer'>
                 {listOfProjects}
             </div>
