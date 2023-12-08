@@ -29,7 +29,7 @@ const FakeShop = () =>{
             <div className='listBox'>
                 <ul>
                     <li><a href='#about'>About</a></li>
-                    <li><a href='https://github.com/BuczekB/new-shop' target='blank' >Go to</a></li>
+                    <li><a href='https://buczekb.github.io/new-shop/' target='blank' >Go to</a></li>
                     <li className='soon'>FAQ</li>
                 </ul>
             </div>
