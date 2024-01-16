@@ -42,7 +42,7 @@ const WeatherApp = () =>{
             <div className='aboutProject' id='about'>
                 <h2>About</h2>
                 <p>
-                I have created an application that allows you to check information about every cryptocurrency. It was developed using <strong>React, TypeScript, Redux and Material UI.</strong>
+                Simple application to check weather wherver you want. It was developed using <strong>JavaScript</strong> and <strong>CSS</strong> for data use free api
                 </p>
             </div>
         </div>
