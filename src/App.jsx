@@ -15,6 +15,7 @@ import CryptoApp from './CryptoApp'
 import FakeShop from './FakeShop'
 import Figma from './Figma'
 import Confectionery from './Confectionery'
+import DealerApp from './DealerApp'
 
 function App() {
  
@@ -33,6 +34,7 @@ function App() {
               <Route path='/Projects/CryptoApp' element={<CryptoApp/>} />
               <Route path='/Projects/FakeShop' element={<FakeShop/>} />
               <Route path='/Figma/Confectionery' element={<Confectionery/>} />
+              <Route path='/Projects/DealerApp' element={<DealerApp/>} />
         </Routes>
         <Cursor/>
       </div>
