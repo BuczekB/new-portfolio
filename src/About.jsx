@@ -39,7 +39,7 @@ const About = () =>{
                     <li>CSS</li>
                     <li>React</li>
                     <li>GIT</li>
-                    <li>TypeScript</li>
+                    <li>Unit test</li>
                 </ul>
                 <ul>
                     <li>API</li>
