@@ -25,7 +25,7 @@ const listOfProjects = namesOfProjects.map((item) =>{
 
 const Figma = () =>{
     return(
-        <div className="homeContainerFigma">
+        <div className="homeContainer">
              <Navigation logo='JB' />
              <h1>  Figma Project</h1>
             <div className='projectContainerFigma'>

@@ -1,136 +1,137 @@
-
 @keyframes animate {
-    0%{
-        background-position: 0%;
-    }
-    100%{
-        background-position: 400%;
-    }
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 400%;
+  }
 }
-*{
-    margin: 0;
-    padding: 0;
-}
-
-
-.homeContainer{
-    display: flex;
-    min-height: 96vh;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #94a3b8;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-.avatar{
-    width: 250px;
-    height: 250px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   overflow: hidden;
-   background-color: black;
+.homeContainer {
+  display: flex;
+  min-height: 96vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #94a3b8;
 }
 
-
-.avatarImg{
-    width: 250px;
-    height: 250px;
-    background-image:  url('./assets/avatar.jpg') ;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-} 
-
-h1{
-    background: linear-gradient(90deg, #7d66ff,#5c6dff,#7811ff, #5c6dff,#7d66ff);
-    background-size: 400%;
-    font-size: 60px;
-    font-family: sans-serif;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    animation: animate 30s linear infinite;
-    
-}
-.h2MainPage{
-    margin-bottom: 25px;
+.avatar {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: black;
 }
 
-.homeContainer button{
-    width: 150px;
-    height: 50px;
-    border-radius: 50px;
-    margin: 10px 10px;
-    border: none;
-    font-weight: bold;
-}
-.homeContainer button:hover{
-   cursor: pointer;
+.avatarImg {
+  width: 250px;
+  height: 250px;
+  background-image: url("./assets/avatar.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-.firstButton{
-    background-color:#183491;
+h1 {
+  background: linear-gradient(
+    90deg,
+    #7d66ff,
+    #5c6dff,
+    #7811ff,
+    #5c6dff,
+    #7d66ff
+  );
+  background-size: 400%;
+  font-size: 50px;
+  font-family: sans-serif;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  animation: animate 30s linear infinite;
 }
-.firstButton{
-    background-color:#2945A2;
-}
-.secoundButton{
-    background-color:#374151;
-}
-.secoundButton{
-    background-color:#485262;
+.h2MainPage {
+  margin-bottom: 25px;
 }
 
-footer{
-    position: absolute;
-    bottom: -1;
-    left: 0;
-    right: 0;
-    display: flex;
-    min-height: 10vh;
-    justify-content: space-around;
-    align-items: center;
-    border-top: 1px solid gray;
+.homeContainer button {
+  width: 150px;
+  height: 50px;
+  border-radius: 50px;
+  margin: 10px 10px;
+  border: none;
+  font-weight: bold;
 }
-.iconsBox span{
-    margin: 0 14px;
+.homeContainer button:hover {
+  cursor: pointer;
+}
+
+.firstButton {
+  background-color: #183491;
+}
+.firstButton {
+  background-color: #2945a2;
+}
+.secoundButton {
+  background-color: #374151;
+}
+.secoundButton {
+  background-color: #485262;
+}
+
+footer {
+  position: absolute;
+  bottom: -1;
+  left: 0;
+  right: 0;
+  display: flex;
+  min-height: 10vh;
+  justify-content: space-around;
+  align-items: center;
+  border-top: 1px solid gray;
+}
+.iconsBox span {
+  margin: 0 14px;
 }
 
 @media all and (max-width: 1660px) {
-    .avatar{
-        margin-top: 100px;
-    }
-    .boxOfButtons{
-        margin: 100px 0;
-    }
-    span{
-        font-size: 16px;
-    }
+  .avatar {
+    margin-top: 100px;
   }
-
-  @media all  and (max-width: 1260px) {
-    .avatar{
-        margin-top: 100px;
-    }
-    .boxOfButtons{
-        margin: 100px 0;
-    }
-    span{
-        font-size: 14px;
-    }
+  .boxOfButtons {
+    margin: 100px 0;
   }
-
-  @media all and (max-width: 960px) {
-    .avatar{
-        margin-top: 100px;
-    }
-    .boxOfButtons{
-        margin: 100px 0;
-    }
-    span{
-        font-size: 10px;
-    }
+  span {
+    font-size: 16px;
   }
+}
 
- 
+@media all and (max-width: 1260px) {
+  .avatar {
+    margin-top: 100px;
+  }
+  .boxOfButtons {
+    margin: 100px 0;
+  }
+  span {
+    font-size: 14px;
+  }
+}
+
+@media all and (max-width: 960px) {
+  .avatar {
+    margin-top: 100px;
+  }
+  .boxOfButtons {
+    margin: 100px 0;
+  }
+  span {
+    font-size: 10px;
+  }
+}

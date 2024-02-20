@@ -1,16 +1,22 @@
-
+.singleProjectContainer{
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
 
 .imagesBoxConfectionery{
     margin-top: 220px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 .singleImageAppConfectionery{
     max-width: 800px;
     margin: 0 30px;
     border-radius: 10px;
+  
 }
 
 
@@ -20,6 +26,32 @@
 
 
 .newWeb{
+   
     margin-bottom: 200px;
 }
 
+ 
+
+@media (max-width: 960px) {
+    .newWeb h1{
+    font-size: 44px;
+}
+
+.oldWeb h1{
+    font-size: 44px;
+} 
+
+.imagesBoxConfectionery{
+   
+    max-width: 86vw;
+
+}
+.singleImageAppConfectionery{
+    
+    max-width: 86vw;
+}
+  }
+
+  @media (max-width: 680px) {
+    
+  }
